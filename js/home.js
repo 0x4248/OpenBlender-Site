@@ -20,7 +20,7 @@ function display_projects() {
             var project_div = document.createElement('div');
             project_div.className = 'project';
             project_div.onclick = function () {
-                window.location.href = '/view_project.html?project=' + project.Name;
+                window.location.href = 'view_project.html?project=' + project.Name;
             }
 
             var project_name = document.createElement('h3');
@@ -53,7 +53,7 @@ function display_projects() {
 
             var project_link = document.createElement('a');
             project_link.onclick = function () {
-                window.location.href = '/view_project.html?project=' + project.Name;
+                window.location.href = 'view_project.html?project=' + project.Name;
             }
             project_link.innerHTML = 'View Project';
 

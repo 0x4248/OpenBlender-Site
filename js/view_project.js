@@ -2,7 +2,7 @@ var urlParams = new URLSearchParams(window.location.search);
 var project_name = urlParams.get('project');
 
 if (!project_name) {
-    window.location.href = '/index.html';
+    window.location.href = '../index.html';
 }
 
 function get_projects(){
