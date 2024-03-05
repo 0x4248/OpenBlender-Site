@@ -1,0 +1,158 @@
+{
+    "Projects": [
+        {
+            "Name": "Can",
+            "Category": "Object",
+            "Blender_File": "Source/Objects/Can/can.blend",
+            "Thumbnail": "Source/Objects/Can/thumbnail.png",
+            "Notes": "Source/Objects/Can/notes.txt",
+            "Engine": "None",
+            "Description": "This is a can that has a crumple modifier that is controlled using a empty and an armature.",
+            "Screenshots": [
+                "Source/Objects/Can/Screenshot 1.png",
+                "Source/Objects/Can/Screenshot 2.png",
+                "Source/Objects/Can/Screenshot 3.png",
+                "Source/Objects/Can/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "FBX": "Source/Objects/Can/can.fbx",
+                "OBJ": "Source/Objects/Can/can.obj",
+                "MTL": "Source/Objects/Can/can.mtl",
+                "GLB": "Source/Objects/Can/can.glb"
+            } 
+        },
+        {
+            "Name": "Monkey",
+            "Category": "DemoFile",
+            "Blender_File": "Source/Demo files/Monkey/Monkey.blend",
+            "Thumbnail": "Source/Demo files/Monkey/thumbnail.png",
+            "Notes": "Source/Demo files/Monkey/notes.txt",
+            "Engine": "Cycles (EEVEE Compatible)",
+            "Description": "A basic monkey render for testing and render benchmarking.",
+            "Screenshots": [
+                "Source/Demo files/Monkey/Screenshot 1.png",
+                "Source/Demo files/Monkey/Screenshot 2.png",
+                "Source/Demo files/Monkey/Screenshot 3.png",
+                "Source/Demo files/Monkey/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "FBX": "Source/Demo files/Monkey/Monkey.fbx",
+                "OBJ": "Source/Demo files/Monkey/Monkey.obj",
+                "MTL": "Source/Demo files/Monkey/Monkey.mtl",
+                "GLB": "Source/Demo files/Monkey/Monkey.glb",
+                "Render": "Source/Demo files/Monkey/render.png",
+                "Noisy Render": "Source/Demo files/Monkey/render_noisy.png",
+                "Mist": "Source/Demo files/Monkey/mist.png",
+                "Normal": "Source/Demo files/Monkey/normal.png"
+            } 
+        }, 
+        {
+            "Name": "Box",
+            "Category": "DemoFile",
+            "Blender_File": "Source/Demo files/Box/box.blend",
+            "Thumbnail": "Source/Demo files/Box/thumbnail.png",
+            "Notes": "Source/Demo files/Box/notes.txt",
+            "Engine": "Cycles",
+            "Description": "A benchmark file that has simple shaders and objects.",
+            "Screenshots": [
+                "Source/Demo files/Box/Screenshot 1.png",
+                "Source/Demo files/Box/Screenshot 2.png",
+                "Source/Demo files/Box/Screenshot 3.png",
+                "Source/Demo files/Box/Screenshot 4.png",
+                "Source/Demo files/Box/Screenshot 5.png",
+                "Source/Demo files/Box/Screenshot 6.png"
+            ],
+            "Other_files": {
+                "FBX": "Source/Demo files/Box/box.fbx",
+                "OBJ": "Source/Demo files/Box/box.obj",
+                "MTL": "Source/Demo files/Box/box.mtl",
+                "PLY": "Source/Demo files/Box/box.ply",
+                "GLB": "Source/Demo files/Box/box.glb",
+                "STL": "Source/Demo files/Box/box.stl",
+                "Noisy Render": "Source/Demo files/Box/noisy_render.png",
+                "Diffuse Colour": "Source/Demo files/Box/diffuse_colour.png",
+                "Diffuse Direct": "Source/Demo files/Box/diffuse_direct.png",
+                "Diffuse Indirect": "Source/Demo files/Box/diffuse_indirect.png",
+                "Glossy Colour": "Source/Demo files/Box/glossy_colour.png",
+                "Glossy Direct": "Source/Demo files/Box/glossy_direct.png",
+                "Glossy Indirect": "Source/Demo files/Box/glossy_indirect.png",
+                "Mist": "Source/Demo files/Box/mist.png",
+                "Normal": "Source/Demo files/Box/normal.png",
+                "Position": "Source/Demo files/Box/position.png"
+            } 
+        }, 
+        {
+            "Name": "Ball Masking",
+            "Category": "Compositing",
+            "Blender_File": "Source/Ball masking/ball masking.blend",
+            "Thumbnail": "Source/Ball masking/thumbnail.png",
+            "Notes": "Source/Ball masking/notes.txt",
+            "Engine": "None",
+            "Description": "A composite mask to turn a tennis ball from green to purple using the compositor, keying and masking.",
+            "Screenshots": [
+                "Source/Ball masking/Screenshot 1.png",
+                "Source/Ball masking/Screenshot 2.png",
+                "Source/Ball masking/Screenshot 3.png",
+                "Source/Ball masking/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "Image_Source": "Source/Ball masking/image.jpg"
+            } 
+        },
+        {
+            "Name": "Lightning",
+            "Category": "FX",
+            "Blender_File": "Source/FX/Lightning/lightning.blend",
+            "Notes": "Source/FX/Lightning/notes.txt",
+            "Thumbnail": "Source/FX/Lightning/thumbnail.png",
+            "Description":"This is a simple lightning bolt made using shape keys and curves",
+            "Engine": "EEVEE",
+            "Screenshots": [
+                "Source/FX/Lightning/Screenshot 1.png",
+                "Source/FX/Lightning/Screenshot 2.png",
+                "Source/FX/Lightning/Screenshot 3.png"
+            ],
+            "Other_files": {
+                "Render": "Source/FX/Lightning/render.mp4",
+                "No_Bloom": "Source/FX/Lightning/no_bloom.mp4"
+            } 
+        },
+        {
+            "Name": "Spark",
+            "Category": "FX",
+            "Blender_File": "Source/FX/Spark/Spark.blend",
+            "Notes": "Source/FX/Spark/notes.txt",
+            "Thumbnail": "Source/FX/Spark/thumbnail.png",
+            "Description":"This is a simple spark made using shape keys and curves",
+            "Engine": "EEVEE",
+            "Other_files": {
+                "Render": "Source/FX/Spark/render.mp4",
+                "No_Bloom": "Source/FX/Spark/no_bloom.mp4"
+            } 
+        },
+        {
+            "Name": "Blank Playground",
+            "Category": "Playgrounds",
+            "Blender_File": "Source/Playgrounds/blank/blank.blend",
+            "Notes": "Source/Playgrounds/blank/notes.txt",
+            "Thumbnail": "Source/Playgrounds/blank/thumbnail.png",
+            "Description":"This is a blank playground for testing purposes",
+            "Engine": "Cycles (EEVEE Compatible)",
+            "Screenshots": [
+                "Source/Playgrounds/blank/Screenshot 1.png"
+            ]
+        },
+        {
+            "Name": "Cube Playground",
+            "Category": "Playgrounds",
+            "Blender_File": "Source/Playgrounds/cube/cube.blend",
+            "Notes": "Source/Playgrounds/cube/notes.txt",
+            "Thumbnail": "Source/Playgrounds/cube/thumbnail.png",
+            "Description":"This is a simple playground with a cube",
+            "Engine": "Cycles (EEVEE Compatible)",
+            "Screenshots": [
+                "Source/Playgrounds/cube/Screenshot 1.png"
+            ]
+        }
+    ]
+}

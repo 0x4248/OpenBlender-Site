@@ -1,0 +1,7 @@
+Blank playground
+
+A basic and blank playground for simulations and more.
+
+Render Engine: Cycles
+Author: Lewis Evans
+Licence: CC-0
