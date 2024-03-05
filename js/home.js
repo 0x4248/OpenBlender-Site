@@ -1,6 +1,6 @@
 function get_projects(callback) {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/files.json', true);
+    xhr.open('GET', 'files.json', true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
             callback(JSON.parse(xhr.responseText));
