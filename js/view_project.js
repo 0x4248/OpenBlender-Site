@@ -2,14 +2,14 @@ var urlParams = new URLSearchParams(window.location.search);
 var project_name = urlParams.get('project');
 
 if (!project_name) {
-    window.location.href = '../index.html';
+    window.location.href = '/OpenBlender-Site/files.json';
 }
 
 function get_projects(){
     // return json of projects from /files.json
     return new Promise(function(resolve, reject){
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '../files.json', true);
+        xhr.open('GET', '/OpenBlender-Site/files.json', true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status == 200) {
                 resolve(JSON.parse(xhr.responseText));
