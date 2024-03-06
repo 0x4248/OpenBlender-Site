@@ -8,6 +8,9 @@ Usage:
 Note:
     Moving and rotating the crumple empty does not affect the can.
     
+Change log:
+    Added render scene for thumbnail
+
 Rendering Engine: None
 Author: Lewis Evans
 Licence CC-0 (Public Domain)
