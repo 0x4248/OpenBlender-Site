@@ -105,6 +105,30 @@
             } 
         }, 
         {
+            "Name": "Colour Bars",
+            "Category":"DemoFile",
+            "Blender_File": "Source/Demo files/Colour Bars/colour_bars.blend",
+            "Thumbnail": "Source/Demo files/Colour Bars/thumbnail.png",
+            "Notes": "Source/Demo files/Colour Bars/notes.txt",
+            "Engine": "EEVEE",
+            "Description":"This set of colour bars allows you to colour correct and focus cameras and videos. It has many tests including contrast, distortion, focus, colour and brightness.",
+            "Screenshots":[
+                "Source/Demo files/Colour Bars/Screenshot 1.png",
+                "Source/Demo files/Colour Bars/Screenshot 2.png",
+                "Source/Demo files/Colour Bars/Screenshot 3.png",
+                "Source/Demo files/Colour Bars/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "500x500 PNG": "Source/Demo files/Colour Bars/500x500.png",
+                "1000x1000 PNG": "Source/Demo files/Colour Bars/1000x1000.png",
+                "5000x5000 PNG": "Source/Demo files/Colour Bars/5000x5000.png",
+                "500x500 HDR": "Source/Demo files/Colour Bars/500x500.hdr",
+                "1000x1000 HDR": "Source/Demo files/Colour Bars/1000x1000.hdr",
+                "500x500 EXR": "Source/Demo files/Colour Bars/500x500.exr",
+                "1000x1000 EXR": "Source/Demo files/Colour Bars/1000x1000.exr"
+            }
+        },
+        {
             "Name": "Ball Masking",
             "Category": "Compositing",
             "Blender_File": "Source/Ball masking/ball masking.blend",
