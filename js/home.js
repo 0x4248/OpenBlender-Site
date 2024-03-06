@@ -32,6 +32,25 @@ function display_projects() {
 
             var project_name = document.createElement('h3');
             project_name.innerHTML = project.Name;
+            if (project.Icons.Is3D === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-box" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.IsAsset === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-bookmark-fill" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.RequiresFastComputer === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-speedometer2" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.IsAnimated === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-record-circle-fill" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.IsRigged === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-universal-access" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.IsCurves === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-bezier" style="color: #999;margin-left: 5px;"></i>';
+            }
+
 
             var thumbnail_img = document.createElement('img');
             thumbnail_img.className = 'thumbnail';
