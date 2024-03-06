@@ -67,6 +67,38 @@
             } 
         },
         {
+            "Name":"Road sign",
+            "Category":"Object",
+            "Blender_File":"Source/Objects/Road sign/road sign.blend",
+            "Thumbnail":"Source/Objects/Road sign/thumbnail.png",
+            "Notes":"Source/Objects/Road sign/notes.txt",
+            "Engine":"Cycles",
+            "Description":"A road closed sign made using UV unwrapping.",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "True",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "False"
+            },
+            "Screenshots":[
+                "Source/Objects/Road sign/Screenshot 1.png",
+                "Source/Objects/Road sign/Screenshot 2.png",
+                "Source/Objects/Road sign/Screenshot 3.png",
+                "Source/Objects/Road sign/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "FBX": "Source/Objects/Road sign/road_sign.fbx",
+                "OBJ": "Source/Objects/Road sign/road_sign.obj",
+                "MTL": "Source/Objects/Road sign/road_sign.mtl",
+                "GLB": "Source/Objects/Road sign/road_sign.glb"
+            }
+        },
+        {
             "Name": "Monkey",
             "Category": "DemoFile",
             "Blender_File": "Source/Demo files/Monkey/Monkey.blend",
