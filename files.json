@@ -22,6 +22,29 @@
             } 
         },
         {
+            "Name": "Pallet",
+            "Category": "Object",
+            "Blender_File": "Source/Objects/Pallet/pallet.blend",
+            "Thumbnail": "Source/Objects/Pallet/thumbnail.png",
+            "Notes": "Source/Objects/Pallet/notes.txt",
+            "Engine": "Cycles",
+            "Description": "A pallet created only with 4 objects and array modifiers. The objects all have procedural textures on them.",
+            "Screenshots": [
+                "Source/Objects/Pallet/Screenshot 1.png",
+                "Source/Objects/Pallet/Screenshot 2.png",
+                "Source/Objects/Pallet/Screenshot 3.png",
+                "Source/Objects/Pallet/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "FBX": "Source/Objects/Pallet/pallet.fbx",
+                "GLB": "Source/Objects/Pallet/pallet.glb",
+                "OBJ": "Source/Objects/Pallet/pallet.obj",
+                "MTL": "Source/Objects/Pallet/pallet.mtl",
+                "PLY": "Source/Objects/Pallet/pallet.ply",
+                "STL": "Source/Objects/Pallet/pallet.stl"
+            } 
+        },
+        {
             "Name": "Monkey",
             "Category": "DemoFile",
             "Blender_File": "Source/Demo files/Monkey/Monkey.blend",
@@ -60,7 +83,7 @@
                 "Source/Demo files/Box/Screenshot 3.png",
                 "Source/Demo files/Box/Screenshot 4.png",
                 "Source/Demo files/Box/Screenshot 5.png",
-                "Sxwwource/Demo files/Box/Screenshot 6.png"
+                "Source/Demo files/Box/Screenshot 6.png"
             ],
             "Other_files": {
                 "FBX": "Source/Demo files/Box/box.fbx",
