@@ -1,6 +1,13 @@
+if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+    var root = '/';
+    document.getElementById('title').innerHTML = 'OpenBlender - Locally hosted';
+} else {
+    var root = '/OpenBlender-Site/';
+}
+
 function get_projects(callback) {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/OpenBlender-Site/files.json', true);
+    xhr.open('GET', root + 'files.json', true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
             callback(JSON.parse(xhr.responseText));
@@ -20,7 +27,7 @@ function display_projects() {
             var project_div = document.createElement('div');
             project_div.className = 'project';
             project_div.onclick = function () {
-                window.location.href = 'view_project.html?project=' + project.Name;
+                window.location.href = root+'view_project.html?project=' + project.Name;
             }
 
             var project_name = document.createElement('h3');
@@ -31,7 +38,7 @@ function display_projects() {
             if (project.Thumbnail) {
                 thumbnail_img.src = project.Thumbnail;
             } else {
-                thumbnail_img.src = '/img/placeholder.png';
+                thumbnail_img.src = root+'img/placeholder.png';
             }
 
             var details_div = document.createElement('div');
@@ -53,7 +60,7 @@ function display_projects() {
 
             var project_link = document.createElement('a');
             project_link.onclick = function () {
-                window.location.href = 'view_project.html?project=' + project.Name;
+                window.location.href = root+'view_project.html?project=' + project.Name;
             }
             project_link.innerHTML = 'View Project';
 

@@ -1,15 +1,26 @@
 var urlParams = new URLSearchParams(window.location.search);
 var project_name = urlParams.get('project');
 
+
+if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+    var root = '/';
+} else {
+    var root = '/OpenBlender-Site/';
+}
+
+
 if (!project_name) {
-    window.location.href = '/OpenBlender-Site/files.json';
+    window.location.href = root + 'index.html';
+}
+
+function go_back() {
+    window.location.href = root + 'index.html';
 }
 
 function get_projects(){
-    // return json of projects from /files.json
     return new Promise(function(resolve, reject){
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/OpenBlender-Site/files.json', true);
+        xhr.open('GET', root + 'files.json', true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status == 200) {
                 resolve(JSON.parse(xhr.responseText));
@@ -20,7 +31,6 @@ function get_projects(){
 }
 
 function extract_project_data(projectName){
-    // get the project json and project name loops trough the json until it finds the project with the same name as the parameter then we return the project
     return new Promise(function(resolve, reject){
         get_projects().then(function(projects){
             var project = projects.Projects.find(function(project){
