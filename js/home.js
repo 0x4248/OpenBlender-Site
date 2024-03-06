@@ -16,6 +16,70 @@ function get_projects(callback) {
     xhr.send();
 }
 
+function pick_featured_project(){
+    get_projects(function (projects) {
+        var featured_project = document.getElementById('featured');
+        var top_pick_projects = projects.Projects.filter(function(project) {
+            return project.Icons.IsTopPick === 'True';
+        });
+        var random_project = top_pick_projects[Math.floor(Math.random() * top_pick_projects.length)];
+        featured_project.onclick = function () {
+            window.location.href = root+'view_project.html?project=' + random_project.Name;
+        }
+        // Create flex container
+        var flexContainer = document.createElement('div');
+        flexContainer.style.display = 'flex';
+        flexContainer.style.alignItems = 'center';
+        
+        // Create left container
+        var leftContainer = document.createElement('div');
+        leftContainer.style.flex = '1';
+        
+        var h2 = document.createElement('h2');
+        h2.innerHTML = 'Featured Project <i class="bi bi-star-fill" style="color: #ffcc00;"></i>'
+        h2.style = 'margin-bottom: 40px;';
+        leftContainer.appendChild(h2);
+
+        // Create project name
+        var project_name = document.createElement('h3');
+        project_name.innerHTML = random_project.Name;
+        leftContainer.appendChild(project_name);
+        
+        // Create description
+        var description = document.createElement('p');
+        description.innerHTML = random_project.Description;
+        leftContainer.appendChild(description);
+        
+        // Create render engine
+        var render_engine = document.createElement('p');
+        render_engine.innerHTML = random_project.Engine;
+        leftContainer.appendChild(render_engine);
+        
+        var render_engine = document.createElement('p');
+        render_engine.innerHTML = "Click for more details";
+        leftContainer.appendChild(render_engine);
+        // Append left container to flex container
+        flexContainer.appendChild(leftContainer);
+        
+        // Create thumbnail
+        var thumbnail_img = document.createElement('img');
+        thumbnail_img.className = 'thumbnail';
+        if (random_project.Thumbnail) {
+            thumbnail_img.src = random_project.Thumbnail;
+        } else {
+            thumbnail_img.src = root+'img/placeholder.png';
+        }
+        
+        // Append thumbnail to flex container
+        flexContainer.appendChild(thumbnail_img);
+        
+        // Append flex container to featured_project
+        featured_project.appendChild(flexContainer);
+    });
+}
+
+pick_featured_project();
+
 function display_projects() {
     get_projects(function (projects) {
         var FXGallery = document.getElementById('FXGallery');

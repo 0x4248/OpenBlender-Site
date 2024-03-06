@@ -118,10 +118,10 @@ function display_project(){
         
         var tr = document.createElement('tr');
         var td = document.createElement('td');
-        td.innerHTML = '<i class="bi bi-box"></i> Blender file';
+        td.innerHTML = '<a href="' + project.Blender_File + '" download="' + project.Blender_File.replace(/^.*[\\\/]/, '') + '"><i class="bi bi-box"></i> Blender File</a>';
         tr.appendChild(td);
         td = document.createElement('td');
-        td.innerHTML = project.Blender_File.replace(/^.*[\\\/]/, '');
+        td.innerHTML = '<a href="' + project.Blender_File + '" download="' + project.Blender_File.replace(/^.*[\\\/]/, '') + '">' + project.Blender_File.replace(/^.*[\\\/]/, '') + '</a>';
         tr.appendChild(td);
         td = document.createElement('td');
         var a = document.createElement('a');
@@ -135,10 +135,10 @@ function display_project(){
 
         var tr = document.createElement('tr');
         var td = document.createElement('td');
-        td.innerHTML = '<i class="bi bi-image"></i> Thumbnail';
+        td.innerHTML = '<a href="' + project.Thumbnail + '" download="' + project.Thumbnail.replace(/^.*[\\\/]/, '') + '"><i class="bi bi-image"></i> Thumbnail</a>';
         tr.appendChild(td);
         td = document.createElement('td');
-        td.innerHTML = project.Thumbnail.replace(/^.*[\\\/]/, '');
+        td.innerHTML = '<a href="' + project.Thumbnail + '" download="' + project.Thumbnail.replace(/^.*[\\\/]/, '') + '">' + project.Thumbnail.replace(/^.*[\\\/]/, '') + '</a>';
         tr.appendChild(td);
         td = document.createElement('td');
         var a = document.createElement('tr');

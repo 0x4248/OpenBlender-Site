@@ -16,6 +16,7 @@ p {
     color: #666;
 }
 
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -40,15 +41,18 @@ p {
 
 .project:hover {
     transform: translateY(-10px);
-    transform: scale(1.10);
+    transform: scale(1.05);
     z-index: 1;
 }
 
 .section {
     background-color: #fff;
-    margin-top: 20px;
     padding: 20px;
     border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,6 +89,34 @@ p {
     border-radius: 8px;
 }
 
+.featured {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease 0.2s forwards;
+    transition: transform 0.2s ease;
+}
+
+.featured .thumbnail{
+    max-width: 40%;
+}
+
+.featured p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.featured:hover {
+    transform: translateY(-10px);
+    transform: scale(1.05);
+    z-index: 1;
+}
+
 .details {
     padding: 10px;
 }
@@ -105,7 +137,6 @@ p {
     background-color: #0056b3;
 }
 
-/* fade in body then the gallery */
 body {
     opacity: 0;
     animation: fadeIn 0.5s ease 0.2s forwards;
@@ -154,4 +185,7 @@ body {
         background-color: #505050;
     }
     
+    .featured {
+        background-color: #1c1c1c;
+    }
 }
