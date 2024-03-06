@@ -1,0 +1,7 @@
+Explosion
+
+A VFX explosion using particle simulations and fluid simulations.
+
+Render Engine: Cycles
+Author: Lewis Evans
+Licence: CC-0 (Public Domain)

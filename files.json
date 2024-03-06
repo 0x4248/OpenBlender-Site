@@ -396,6 +396,30 @@
             } 
         },
         {
+            "Name": "Explosion",
+            "Category": "FX",
+            "Blender_File": "Source/FX/Explosion/explosion.blend",
+            "Notes": "Source/FX/Explosion/notes.txt",
+            "Thumbnail": "Source/FX/Explosion/thumbnail.png",
+            "Description":"A VFX explosion using particle simulations and fluid simulations.",
+            "Engine": "Cycles",
+            "Icons": {
+                "Is3D": "False",
+                "IsAsset": "False",
+                "IsAssets": "False",
+                "RequiresFastComputer": "True",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
+            },
+            "Screenshots": [
+                "Source/FX/Explosion/Screenshot 1.png",
+                "Source/FX/Explosion/Screenshot 2.png"
+            ]
+        },
+        {
             "Name": "Blank Playground",
             "Category": "Playgrounds",
             "Blender_File": "Source/Playgrounds/blank/blank.blend",
