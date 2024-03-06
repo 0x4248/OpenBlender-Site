@@ -99,6 +99,46 @@
             }
         },
         {
+            "Name": "Wood Beams",
+            "Category": "Object",
+            "Blender_File": "Source/Objects/Wood beams/Wood beams.blend",
+            "Thumbnail": "Source/Objects/Wood beams/thumbnail.png",
+            "Notes": "Source/Objects/Wood beams/notes.txt",
+            "Engine": "Cycles",
+            "Description": "Collection of bent wooden beams for creating wooden structures.",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "True",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "False"
+            },
+            "Screenshots": [
+                "Source/Objects/Wood beams/Screenshot 1.png",
+                "Source/Objects/Wood beams/Screenshot 2.png",
+                "Source/Objects/Wood beams/Screenshot 3.png",
+                "Source/Objects/Wood beams/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "FBX Beam 1": "Source/Objects/Wood beams/beam 1.fbx",
+                "OBJ Beam 1": "Source/Objects/Wood beams/beam 1.obj",
+                "MTL Beam 1": "Source/Objects/Wood beams/beam 1.mtl",
+                "FBX Beam 2": "Source/Objects/Wood beams/beam 2.fbx",
+                "OBJ Beam 2": "Source/Objects/Wood beams/beam 2.obj",
+                "MTL Beam 2": "Source/Objects/Wood beams/beam 2.mtl",
+                "FBX Beam 3": "Source/Objects/Wood beams/beam 3.fbx",
+                "OBJ Beam 3": "Source/Objects/Wood beams/beam 3.obj",
+                "MTL Beam 3": "Source/Objects/Wood beams/beam 3.mtl",
+                "FBX Beam 4": "Source/Objects/Wood beams/beam 4.fbx",
+                "OBJ Beam 4": "Source/Objects/Wood beams/beam 4.obj",
+                "MTL Beam 4": "Source/Objects/Wood beams/beam 4.mtl"
+            }
+        },
+        {
             "Name": "Monkey",
             "Category": "DemoFile",
             "Blender_File": "Source/Demo files/Monkey/Monkey.blend",
