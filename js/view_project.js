@@ -45,6 +45,34 @@ function display_project(){
     extract_project_data(project_name).then(function(project){
         var title = document.getElementById('title');
         title.innerHTML = project.Name;
+        if (project.Icons.IsTopPick === 'True') {
+            title.innerHTML += ' <i class="bi bi-star-fill" style="color: #ffcc00;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.Is3D === 'True') {
+            title.innerHTML += ' <i class="bi bi-box" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.IsAsset === 'True') {
+            title.innerHTML += ' <i class="bi bi-bookmark-fill" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.IsAssets === 'True') {
+            title.innerHTML += ' <i class="bi bi-bookmarks-fill" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.RequiresFastComputer === 'True') {
+            title.innerHTML += ' <i class="bi bi-speedometer2" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.IsAnimated === 'True') {
+            title.innerHTML += ' <i class="bi bi-record-circle-fill" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.IsRigged === 'True') {
+            title.innerHTML += ' <i class="bi bi-universal-access" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.IsCurves === 'True') {
+            title.innerHTML += ' <i class="bi bi-bezier" style="color: #999;margin-left: 5px;"></i>';
+        }
+        if (project.Icons.IsGeoNodes === 'True') {
+            title.innerHTML += ' <i class="bi bi-diagram-2-fill" style="color: #999;margin-left: 5px;"></i>';
+        }
+
         var notes = document.getElementById('notes');
         var note_text = "";
         var xhr = new XMLHttpRequest();
@@ -113,7 +141,7 @@ function display_project(){
         td.innerHTML = project.Thumbnail.replace(/^.*[\\\/]/, '');
         tr.appendChild(td);
         td = document.createElement('td');
-        var a = document.createElement('a');
+        var a = document.createElement('tr');
         a.href = project.Thumbnail;
         a.download = project.Thumbnail.replace(/^.*[\\\/]/, '');
         a.innerHTML = '<i class="bi bi-download"></i>';
@@ -126,28 +154,28 @@ function display_project(){
             var file_name =  key.replace("_", " ");
             var full_file_name = project.Other_files[key].replace(/^.*[\\\/]/, '');
             if (full_file_name.endsWith(".png") || full_file_name.endsWith(".jpg") || full_file_name.endsWith(".jpeg") || full_file_name.endsWith(".gif") || full_file_name.endsWith(".bmp") || full_file_name.endsWith(".tiff") || full_file_name.endsWith(".webp")) {
-                file_name = '<i class="bi bi-image"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-image"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".mp4") || full_file_name.endsWith(".webm") || full_file_name.endsWith(".ogg") || full_file_name.endsWith(".avi") || full_file_name.endsWith(".mov") || full_file_name.endsWith(".flv") || full_file_name.endsWith(".wmv") || full_file_name.endsWith(".mkv")) {
-                file_name = '<i class="bi bi-film"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-film"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".obj") || full_file_name.endsWith(".fbx") || full_file_name.endsWith(".3ds") || full_file_name.endsWith(".dae") || full_file_name.endsWith(".stl") || full_file_name.endsWith(".ply") || full_file_name.endsWith(".dxf") || full_file_name.endsWith(".gltf") || full_file_name.endsWith(".glb")) {
-                file_name = '<i class="bi bi-boxes"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-boxes"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".mtl")){
-                file_name = '<i class="bi bi-brush"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-brush"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".blend")) {
-                file_name = '<i class="bi bi-box"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-box"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".zip") || full_file_name.endsWith(".rar") || full_file_name.endsWith(".7z") || full_file_name.endsWith(".tar") || full_file_name.endsWith(".gz") || full_file_name.endsWith(".bz2") || full_file_name.endsWith(".xz")) {
-                file_name = '<i class="bi bi-archive"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-archive"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".pdf") || full_file_name.endsWith(".doc") || full_file_name.endsWith(".docx") || full_file_name.endsWith(".odt") || full_file_name.endsWith(".txt") || full_file_name.endsWith(".rtf") || full_file_name.endsWith(".md")) {
-                file_name = '<i class="bi bi-file-earmark-text"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-file-earmark-text"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".svg")){
-                file_name = '<i class="bi bi-filetype-svg"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-vector-pen"></i> ' + file_name + '</a>';
             } else {
-                file_name = '<i class="bi bi-file-earmark"></i> ' + file_name;
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-file-earmark"></i> ' + file_name + '</a>';
             }
             td.innerHTML = file_name;
             tr.appendChild(td);
             td = document.createElement('td');
-            td.innerHTML = full_file_name;
+            td.innerHTML = "<a href='" + project.Other_files[key] + "' download='" + full_file_name + "'>" + full_file_name + "</a>";
             tr.appendChild(td);
             td = document.createElement('td');
             var a = document.createElement('a');

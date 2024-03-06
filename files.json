@@ -11,10 +11,13 @@
             "Icons": {
                 "Is3D": "True",
                 "IsAsset": "True",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "False",
                 "IsRigged": "True",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Objects/Can/Screenshot 1.png",
@@ -39,11 +42,14 @@
             "Description": "A pallet created only with 4 objects and array modifiers. The objects all have procedural textures on them.",
             "Icons": {
                 "Is3D": "True",
-                "IsAsset": "True",
+                "IsAsset": "False",
+                "IsAssets": "True",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Objects/Pallet/Screenshot 1.png",
@@ -71,10 +77,13 @@
             "Icons": {
                 "Is3D": "True",
                 "IsAsset": "False",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Demo files/Monkey/Screenshot 1.png",
@@ -104,10 +113,13 @@
             "Icons": {
                 "Is3D": "True",
                 "IsAsset": "False",
+                "IsAssets": "False",
                 "RequiresFastComputer": "True",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Demo files/Box/Screenshot 1.png",
@@ -146,11 +158,14 @@
             "Description":"This set of colour bars allows you to colour correct and focus cameras and videos. It has many tests including contrast, distortion, focus, colour and brightness.",
             "Icons": {
                 "Is3D": "False",
-                "IsAsset": "False",
+                "IsAsset": "True",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Screenshots":[
                 "Source/Demo files/Colour Bars/Screenshot 1.png",
@@ -169,6 +184,64 @@
             }
         },
         {
+            "Name": "Mirror",
+            "Category":"DemoFile",
+            "Description": "A scene that utilises raytracing to reflect light off an object.",
+            "Blender_File": "Source/Demo files/Mirror/mirror.blend",
+            "Thumbnail": "Source/Demo files/Mirror/thumbnail.png",
+            "Engine": "Cycles",
+            "Notes": "Source/Demo files/Mirror/notes.txt",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "False",
+                "IsAssets": "False",
+                "RequiresFastComputer": "True",
+                "IsAnimated": "True",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "False"
+            },
+            "Screenshots":[
+                "Source/Demo files/Mirror/Screenshot 1.png",
+                "Source/Demo files/Mirror/Screenshot 2.png",
+                "Source/Demo files/Mirror/Screenshot 3.png",
+                "Source/Demo files/Mirror/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "Mist": "Source/Demo files/Mirror/mist.png",
+                "Normal": "Source/Demo files/Mirror/normal.png",
+                "Position": "Source/Demo files/Mirror/position.png"
+            }
+        },
+        {
+            "Name": "Zoom",
+            "Category": "DemoFile",
+            "Description": "A animated demo of how zoom affects perspective.",
+            "Blender_File": "Source/Demo files/Zoom/zoom.blend",
+            "Thumbnail": "Source/Demo files/Zoom/thumbnail.png",
+            "Engine": "Cycles",
+            "Notes": "Source/Demo files/Zoom/notes.txt",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "False",
+                "IsAssets": "False",
+                "RequiresFastComputer": "True",
+                "IsAnimated": "True",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "False"
+            },
+            "Screenshots":[
+                "Source/Demo files/Zoom/Screenshot 1.png",
+                "Source/Demo files/Zoom/Screenshot 2.png",
+                "Source/Demo files/Zoom/Screenshot 3.png",
+                "Source/Demo files/Zoom/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "Render": "Source/Demo files/Zoom/render.mp4"
+            }
+        },
+        {
             "Name": "Ball Masking",
             "Category": "Compositing",
             "Blender_File": "Source/Ball masking/ball masking.blend",
@@ -179,10 +252,13 @@
             "Icons": {
                 "Is3D": "False",
                 "IsAsset": "False",
-                "RequiresFastComputer": "False",
+                "IsAssets": "False",
+                "RequiresFastComputer": "True",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Ball masking/Screenshot 1.png",
@@ -205,10 +281,13 @@
             "Icons": {
                 "Is3D": "False",
                 "IsAsset": "True",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "True",
                 "IsRigged": "False",
-                "IsCurves": "True"
+                "IsCurves": "True",
+                "IsTopPick": "True",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/FX/Lightning/Screenshot 1.png",
@@ -231,10 +310,13 @@
             "Icons": {
                 "Is3D": "False",
                 "IsAsset": "True",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "True",
                 "IsRigged": "False",
-                "IsCurves": "True"
+                "IsCurves": "True",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Other_files": {
                 "Render": "Source/FX/Spark/render.mp4",
@@ -252,10 +334,13 @@
             "Icons": {
                 "Is3D": "True",
                 "IsAsset": "False",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Playgrounds/blank/Screenshot 1.png"
@@ -272,14 +357,48 @@
             "Icons": {
                 "Is3D": "True",
                 "IsAsset": "False",
+                "IsAssets": "False",
                 "RequiresFastComputer": "False",
                 "IsAnimated": "False",
                 "IsRigged": "False",
-                "IsCurves": "False"
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
             },
             "Screenshots": [
                 "Source/Playgrounds/cube/Screenshot 1.png"
             ]
+        },
+        {
+            "Name": "Leaf scatter node",
+            "Category": "GeometryNodes",
+            "Blender_File": "Source/GeometryNodes/Leaf scatter node/leaf_scatter_node.blend",
+            "Notes": "Source/GeometryNodes/Leaf scatter node/notes.txt",
+            "Thumbnail": "Source/GeometryNodes/Leaf scatter node/thumbnail.png",
+            "Description":"Scattering leaves across a curve using geometry nodes.",
+            "Engine": "None",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "True",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "True",
+                "IsTopPick": "False",
+                "IsGeoNodes": "True"
+            },
+            "Screenshots": [
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 1.png",
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 2.png",
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 3.png",
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "FBX": "Source/GeometryNodes/Leaf scatter node/leaf_scatter.fbx",
+                "MTL": "Source/GeometryNodes/Leaf scatter node/leaf_scatter.mtl",
+                "Leaf image": "Source/GeometryNodes/Leaf scatter node/leaf.png"
+            }
         }
     ]
 }

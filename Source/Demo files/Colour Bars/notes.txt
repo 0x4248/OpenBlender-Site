@@ -2,6 +2,9 @@ Colour bars
 
 This set of colour bars allows you to colour correct and focus cameras and videos. It has many tests including contrast, distortion, focus, colour and brightness.
 
+Changelog:
+    Version 1: Made objects asset
+
 Render Engine: EEVEE
 Author: Lewis Evans
 Licence: CC-0 (Public Domain)

@@ -23,6 +23,7 @@ function display_projects() {
         var PlaygroundsGallery = document.getElementById('PlaygroundsGallery');
         var ObjectsGallery = document.getElementById('ObjectGallery');
         var DemoFilesGallery = document.getElementById('DemoFileGallery');
+        var GeometryNodesGallery = document.getElementById('GeometryNodesGallery');
         projects.Projects.forEach(function (project) {
             var project_div = document.createElement('div');
             project_div.className = 'project';
@@ -32,11 +33,17 @@ function display_projects() {
 
             var project_name = document.createElement('h3');
             project_name.innerHTML = project.Name;
+            if (project.Icons.IsTopPick === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-star-fill" style="color: #ffcc00;margin-left: 5px;"></i>';
+            }
             if (project.Icons.Is3D === 'True') {
                 project_name.innerHTML += ' <i class="bi bi-box" style="color: #999;margin-left: 5px;"></i>';
             }
             if (project.Icons.IsAsset === 'True') {
                 project_name.innerHTML += ' <i class="bi bi-bookmark-fill" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.IsAssets === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-bookmarks-fill" style="color: #999;margin-left: 5px;"></i>';
             }
             if (project.Icons.RequiresFastComputer === 'True') {
                 project_name.innerHTML += ' <i class="bi bi-speedometer2" style="color: #999;margin-left: 5px;"></i>';
@@ -49,6 +56,9 @@ function display_projects() {
             }
             if (project.Icons.IsCurves === 'True') {
                 project_name.innerHTML += ' <i class="bi bi-bezier" style="color: #999;margin-left: 5px;"></i>';
+            }
+            if (project.Icons.IsGeoNodes === 'True') {
+                project_name.innerHTML += ' <i class="bi bi-diagram-2-fill" style="color: #999;margin-left: 5px;"></i>';
             }
 
 
@@ -101,6 +111,9 @@ function display_projects() {
                 ObjectsGallery.appendChild(project_div);
             } else if (project.Category === 'DemoFile') {
                 DemoFilesGallery.appendChild(project_div);
+            }
+            else if (project.Category === 'GeometryNodes') {
+                GeometryNodesGallery.appendChild(project_div);
             }
         });
     });
