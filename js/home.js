@@ -34,6 +34,7 @@ function pick_featured_project(){
         // Create left container
         var leftContainer = document.createElement('div');
         leftContainer.style.flex = '1';
+        leftContainer.style.marginRight = '10px';
         
         var h2 = document.createElement('h2');
         h2.innerHTML = 'Featured Project <i class="bi bi-star-fill" style="color: #ffcc00;"></i>'
