@@ -1,0 +1,7 @@
+Light trail
+
+A light trail effect using motion blur and a fast spinning curves object.
+
+Render Engine: EEVEE
+Author: Lewis Evans
+Licence: CC-0 (Public Domain)

@@ -420,6 +420,35 @@
             ]
         },
         {
+            "Name":"Light trail",
+            "Category":"FX",
+            "Blender_File":"Source/FX/Light trail/light trail.blend",
+            "Notes":"Source/FX/Light trail/notes.txt",
+            "Thumbnail":"Source/FX/Light trail/thumbnail.png",
+            "Description": "A light trail effect using motion blur and a fast spinning curves object.",
+            "Engine": "EEVEE",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "False",
+                "IsAssets": "False",
+                "RequiresFastComputer": "True",
+                "IsAnimated": "True",
+                "IsRigged": "False",
+                "IsCurves": "True",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
+            },
+            "Screenshots":[
+                "Source/FX/Light trail/Screenshot 1.png",
+                "Source/FX/Light trail/Screenshot 2.png",
+                "Source/FX/Light trail/Screenshot 3.png",
+                "Source/FX/Light trail/Screenshot 4.png"
+            ],
+            "Other_files": {
+                "Render": "Source/FX/Light trail/render.mp4"
+            }
+        },
+        {
             "Name": "Blank Playground",
             "Category": "Playgrounds",
             "Blender_File": "Source/Playgrounds/blank/blank.blend",
