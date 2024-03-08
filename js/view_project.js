@@ -159,7 +159,7 @@ function display_project(){
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-film"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".obj") || full_file_name.endsWith(".fbx") || full_file_name.endsWith(".3ds") || full_file_name.endsWith(".dae") || full_file_name.endsWith(".stl") || full_file_name.endsWith(".ply") || full_file_name.endsWith(".dxf") || full_file_name.endsWith(".gltf") || full_file_name.endsWith(".glb")) {
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-boxes"></i> ' + file_name + '</a>';
-            } else if (full_file_name.endsWith(".mtl")){
+            } else if (full_file_name.endsWith(".mtl")) {
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-brush"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".blend")) {
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-box"></i> ' + file_name + '</a>';
@@ -167,8 +167,10 @@ function display_project(){
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-archive"></i> ' + file_name + '</a>';
             } else if (full_file_name.endsWith(".pdf") || full_file_name.endsWith(".doc") || full_file_name.endsWith(".docx") || full_file_name.endsWith(".odt") || full_file_name.endsWith(".txt") || full_file_name.endsWith(".rtf") || full_file_name.endsWith(".md")) {
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-file-earmark-text"></i> ' + file_name + '</a>';
-            } else if (full_file_name.endsWith(".svg")){
+            } else if (full_file_name.endsWith(".svg")) {
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-vector-pen"></i> ' + file_name + '</a>';
+            } else if (full_file_name.endsWith(".mp3") || full_file_name.endsWith(".wav") || full_file_name.endsWith(".flac") || full_file_name.endsWith(".ogg") || full_file_name.endsWith(".wma") || full_file_name.endsWith(".aac") || full_file_name.endsWith(".m4a")) {
+                file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-music-note"></i> ' + file_name + '</a>';
             } else {
                 file_name = '<a href="' + project.Other_files[key] + '" download="' + full_file_name + '"><i class="bi bi-file-earmark"></i> ' + file_name + '</a>';
             }
