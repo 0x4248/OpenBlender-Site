@@ -1,0 +1,7 @@
+Fence panels
+
+A collection of 3D fence panels with textures. You can extend the fence using the array modifiers on the objects
+
+Render Engine: Cycles
+Author: Lewis Evans
+Licence CC-0 (Public Domain)

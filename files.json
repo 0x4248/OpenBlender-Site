@@ -139,6 +139,32 @@
             }
         },
         {
+            "Name": "Fence Panels",
+            "Category": "Object",
+            "Blender_File": "Source/Objects/Fence panels/fence panels.blend",
+            "Thumbnail": "Source/Objects/Fence panels/thumbnail.png",
+            "Notes": "Source/Objects/Fence panels/notes.txt",
+            "Engine": "Cycles",
+            "Description": "A collection of 3D fence panels with textures. You can extend the fence using the array modifiers on the objects.",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "False",
+                "IsAssets": "True",
+                "RequiresFastComputer": "True",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "False"
+            },
+            "Screenshots": [
+                "Source/Objects/Fence panels/Screenshot 1.png",
+                "Source/Objects/Fence panels/Screenshot 2.png",
+                "Source/Objects/Fence panels/Screenshot 3.png",
+                "Source/Objects/Fence panels/Screenshot 4.png"
+            ]
+        },
+        {
             "Name": "Monkey",
             "Category": "DemoFile",
             "Blender_File": "Source/Demo files/Monkey/Monkey.blend",
