@@ -165,6 +165,32 @@
             ]
         },
         {
+            "Name": "Cone",
+            "Category": "Object",
+            "Blender_File": "Source/Objects/Cone/cone.blend",
+            "Thumbnail": "Source/Objects/Cone/thumbnail.png",
+            "Notes": "Source/Objects/Cone/notes.txt",
+            "Engine": "Cycles",
+            "Description": "A low poly cone that is UV wrapped to a image of a cone and has basic textures on it. The cone has a armature for bending and displacing the cone.",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "True",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "True",
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "False"
+            },
+            "Screenshots": [
+                "Source/Objects/Cone/Screenshot 1.png",
+                "Source/Objects/Cone/Screenshot 2.png",
+                "Source/Objects/Cone/Screenshot 3.png",
+                "Source/Objects/Cone/Screenshot 4.png"
+            ]
+        },
+        {
             "Name": "Monkey",
             "Category": "DemoFile",
             "Blender_File": "Source/Demo files/Monkey/Monkey.blend",

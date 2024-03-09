@@ -1,0 +1,9 @@
+Cone
+
+A low poly cone that is UV wrapped to a image of a cone and has basic textures on it. The cone has a armature for bending and displacing the cone.
+
+Image is from OpenImages.
+
+Render Engine: Cycles
+Author: Lewis Evans
+Licence: CC-0 (Public Domain)
