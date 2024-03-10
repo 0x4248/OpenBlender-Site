@@ -576,6 +576,32 @@
                 "MTL": "Source/GeometryNodes/Leaf scatter node/leaf_scatter.mtl",
                 "Leaf image": "Source/GeometryNodes/Leaf scatter node/leaf.png"
             }
+        },
+        {
+            "Name": "Forest scatter",
+            "Category": "GeometryNodes",
+            "Blender_File": "Source/GeometryNodes/Forest scatter/forest scatter.blend",
+            "Notes": "Source/GeometryNodes/Forest scatter/notes.txt",
+            "Thumbnail": "Source/GeometryNodes/Forest scatter/thumbnail.png",
+            "Description": "A geometry node setup to scatter 3 objects onto a plane and to displace the plane. The plane also has a seamless/tileless texture.",
+            "Engine": "None",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "False",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "False",
+                "IsGeoNodes": "True"
+            },
+            "Screenshots": [
+                "Source/GeometryNodes/Forest scatter/Screenshot 1.png",
+                "Source/GeometryNodes/Forest scatter/Screenshot 2.png",
+                "Source/GeometryNodes/Forest scatter/Screenshot 3.png",
+                "Source/GeometryNodes/Forest scatter/Screenshot 4.png"
+            ]
         }
     ]
 }
