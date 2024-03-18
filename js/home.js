@@ -68,7 +68,7 @@ function pick_featured_project(){
         if (random_project.Thumbnail) {
             thumbnail_img.src = random_project.Thumbnail;
         } else {
-            thumbnail_img.src = root+'img/placeholder.png';
+            thumbnail_img.src = root+'img/placeholder.jpg';
         }
         
         // Append thumbnail to flex container
