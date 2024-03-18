@@ -7,6 +7,9 @@
 # PNG files can make the page take ages to the page to load. Turning them into jpg's
 # made the site transfer only 2MB of data instead of 40MB making the site way faster
 
+import os
+from PIL import Image
+
 # Ask for directory
 directory = input("Enter directory: ")
 
