@@ -20,10 +20,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Objects/Can/Screenshot 1.png",
-                "Source/Objects/Can/Screenshot 2.png",
-                "Source/Objects/Can/Screenshot 3.png",
-                "Source/Objects/Can/Screenshot 4.png"
+                "Source/Objects/Can/Screenshot 1.jpg",
+                "Source/Objects/Can/Screenshot 2.jpg",
+                "Source/Objects/Can/Screenshot 3.jpg",
+                "Source/Objects/Can/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "FBX": "Source/Objects/Can/can.fbx",
@@ -52,10 +52,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Objects/Pallet/Screenshot 1.png",
-                "Source/Objects/Pallet/Screenshot 2.png",
-                "Source/Objects/Pallet/Screenshot 3.png",
-                "Source/Objects/Pallet/Screenshot 4.png"
+                "Source/Objects/Pallet/Screenshot 1.jpg",
+                "Source/Objects/Pallet/Screenshot 2.jpg",
+                "Source/Objects/Pallet/Screenshot 3.jpg",
+                "Source/Objects/Pallet/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "FBX": "Source/Objects/Pallet/pallet.fbx",
@@ -86,10 +86,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots":[
-                "Source/Objects/Road sign/Screenshot 1.png",
-                "Source/Objects/Road sign/Screenshot 2.png",
-                "Source/Objects/Road sign/Screenshot 3.png",
-                "Source/Objects/Road sign/Screenshot 4.png"
+                "Source/Objects/Road sign/Screenshot 1.jpg",
+                "Source/Objects/Road sign/Screenshot 2.jpg",
+                "Source/Objects/Road sign/Screenshot 3.jpg",
+                "Source/Objects/Road sign/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "FBX": "Source/Objects/Road sign/road_sign.fbx",
@@ -118,10 +118,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Objects/Wood beams/Screenshot 1.png",
-                "Source/Objects/Wood beams/Screenshot 2.png",
-                "Source/Objects/Wood beams/Screenshot 3.png",
-                "Source/Objects/Wood beams/Screenshot 4.png"
+                "Source/Objects/Wood beams/Screenshot 1.jpg",
+                "Source/Objects/Wood beams/Screenshot 2.jpg",
+                "Source/Objects/Wood beams/Screenshot 3.jpg",
+                "Source/Objects/Wood beams/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "FBX Beam 1": "Source/Objects/Wood beams/beam 1.fbx",
@@ -158,10 +158,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Objects/Fence panels/Screenshot 1.png",
-                "Source/Objects/Fence panels/Screenshot 2.png",
-                "Source/Objects/Fence panels/Screenshot 3.png",
-                "Source/Objects/Fence panels/Screenshot 4.png"
+                "Source/Objects/Fence panels/Screenshot 1.jpg",
+                "Source/Objects/Fence panels/Screenshot 2.jpg",
+                "Source/Objects/Fence panels/Screenshot 3.jpg",
+                "Source/Objects/Fence panels/Screenshot 4.jpg"
             ]
         },
         {
@@ -184,10 +184,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Objects/Cone/Screenshot 1.png",
-                "Source/Objects/Cone/Screenshot 2.png",
-                "Source/Objects/Cone/Screenshot 3.png",
-                "Source/Objects/Cone/Screenshot 4.png"
+                "Source/Objects/Cone/Screenshot 1.jpg",
+                "Source/Objects/Cone/Screenshot 2.jpg",
+                "Source/Objects/Cone/Screenshot 3.jpg",
+                "Source/Objects/Cone/Screenshot 4.jpg"
             ]
         },
         {
@@ -210,10 +210,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Demo files/Monkey/Screenshot 1.png",
-                "Source/Demo files/Monkey/Screenshot 2.png",
-                "Source/Demo files/Monkey/Screenshot 3.png",
-                "Source/Demo files/Monkey/Screenshot 4.png"
+                "Source/Demo files/Monkey/Screenshot 1.jpg",
+                "Source/Demo files/Monkey/Screenshot 2.jpg",
+                "Source/Demo files/Monkey/Screenshot 3.jpg",
+                "Source/Demo files/Monkey/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "FBX": "Source/Demo files/Monkey/Monkey.fbx",
@@ -246,10 +246,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Demo files/Box/Screenshot 1.png",
-                "Source/Demo files/Box/Screenshot 2.png",
-                "Source/Demo files/Box/Screenshot 3.png",
-                "Source/Demo files/Box/Screenshot 4.png",
+                "Source/Demo files/Box/Screenshot 1.jpg",
+                "Source/Demo files/Box/Screenshot 2.jpg",
+                "Source/Demo files/Box/Screenshot 3.jpg",
+                "Source/Demo files/Box/Screenshot 4.jpg",
                 "Source/Demo files/Box/Screenshot 5.png",
                 "Source/Demo files/Box/Screenshot 6.png"
             ],
@@ -292,10 +292,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots":[
-                "Source/Demo files/Colour Bars/Screenshot 1.png",
-                "Source/Demo files/Colour Bars/Screenshot 2.png",
-                "Source/Demo files/Colour Bars/Screenshot 3.png",
-                "Source/Demo files/Colour Bars/Screenshot 4.png"
+                "Source/Demo files/Colour Bars/Screenshot 1.jpg",
+                "Source/Demo files/Colour Bars/Screenshot 2.jpg",
+                "Source/Demo files/Colour Bars/Screenshot 3.jpg",
+                "Source/Demo files/Colour Bars/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "500x500 PNG": "Source/Demo files/Colour Bars/500x500.png",
@@ -326,10 +326,10 @@
                 "IsTopPick": "False"
             },
             "Screenshots":[
-                "Source/Demo files/Mirror/Screenshot 1.png",
-                "Source/Demo files/Mirror/Screenshot 2.png",
-                "Source/Demo files/Mirror/Screenshot 3.png",
-                "Source/Demo files/Mirror/Screenshot 4.png"
+                "Source/Demo files/Mirror/Screenshot 1.jpg",
+                "Source/Demo files/Mirror/Screenshot 2.jpg",
+                "Source/Demo files/Mirror/Screenshot 3.jpg",
+                "Source/Demo files/Mirror/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "Mist": "Source/Demo files/Mirror/mist.png",
@@ -356,10 +356,10 @@
                 "IsTopPick": "False"
             },
             "Screenshots":[
-                "Source/Demo files/Zoom/Screenshot 1.png",
-                "Source/Demo files/Zoom/Screenshot 2.png",
-                "Source/Demo files/Zoom/Screenshot 3.png",
-                "Source/Demo files/Zoom/Screenshot 4.png"
+                "Source/Demo files/Zoom/Screenshot 1.jpg",
+                "Source/Demo files/Zoom/Screenshot 2.jpg",
+                "Source/Demo files/Zoom/Screenshot 3.jpg",
+                "Source/Demo files/Zoom/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "Render": "Source/Demo files/Zoom/render.mp4"
@@ -385,10 +385,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Ball masking/Screenshot 1.png",
-                "Source/Ball masking/Screenshot 2.png",
-                "Source/Ball masking/Screenshot 3.png",
-                "Source/Ball masking/Screenshot 4.png"
+                "Source/Ball masking/Screenshot 1.jpg",
+                "Source/Ball masking/Screenshot 2.jpg",
+                "Source/Ball masking/Screenshot 3.jpg",
+                "Source/Ball masking/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "Image_Source": "Source/Ball masking/image.jpg"
@@ -414,9 +414,9 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/FX/Lightning/Screenshot 1.png",
-                "Source/FX/Lightning/Screenshot 2.png",
-                "Source/FX/Lightning/Screenshot 3.png"
+                "Source/FX/Lightning/Screenshot 1.jpg",
+                "Source/FX/Lightning/Screenshot 2.jpg",
+                "Source/FX/Lightning/Screenshot 3.jpg"
             ],
             "Other_files": {
                 "Render": "Source/FX/Lightning/render.mp4",
@@ -467,8 +467,8 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/FX/Explosion/Screenshot 1.png",
-                "Source/FX/Explosion/Screenshot 2.png"
+                "Source/FX/Explosion/Screenshot 1.jpg",
+                "Source/FX/Explosion/Screenshot 2.jpg"
             ]
         },
         {
@@ -491,10 +491,10 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots":[
-                "Source/FX/Light trail/Screenshot 1.png",
-                "Source/FX/Light trail/Screenshot 2.png",
-                "Source/FX/Light trail/Screenshot 3.png",
-                "Source/FX/Light trail/Screenshot 4.png"
+                "Source/FX/Light trail/Screenshot 1.jpg",
+                "Source/FX/Light trail/Screenshot 2.jpg",
+                "Source/FX/Light trail/Screenshot 3.jpg",
+                "Source/FX/Light trail/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "Render": "Source/FX/Light trail/render.mp4"
@@ -520,7 +520,7 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Playgrounds/blank/Screenshot 1.png"
+                "Source/Playgrounds/blank/Screenshot 1.jpg"
             ]
         },
         {
@@ -543,7 +543,7 @@
                 "IsGeoNodes": "False"
             },
             "Screenshots": [
-                "Source/Playgrounds/cube/Screenshot 1.png"
+                "Source/Playgrounds/cube/Screenshot 1.jpg"
             ]
         },
         {
@@ -566,10 +566,10 @@
                 "IsGeoNodes": "True"
             },
             "Screenshots": [
-                "Source/GeometryNodes/Leaf scatter node/Screenshot 1.png",
-                "Source/GeometryNodes/Leaf scatter node/Screenshot 2.png",
-                "Source/GeometryNodes/Leaf scatter node/Screenshot 3.png",
-                "Source/GeometryNodes/Leaf scatter node/Screenshot 4.png"
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 1.jpg",
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 2.jpg",
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 3.jpg",
+                "Source/GeometryNodes/Leaf scatter node/Screenshot 4.jpg"
             ],
             "Other_files": {
                 "FBX": "Source/GeometryNodes/Leaf scatter node/leaf_scatter.fbx",
@@ -597,10 +597,10 @@
                 "IsGeoNodes": "True"
             },
             "Screenshots": [
-                "Source/GeometryNodes/Forest scatter/Screenshot 1.png",
-                "Source/GeometryNodes/Forest scatter/Screenshot 2.png",
-                "Source/GeometryNodes/Forest scatter/Screenshot 3.png",
-                "Source/GeometryNodes/Forest scatter/Screenshot 4.png"
+                "Source/GeometryNodes/Forest scatter/Screenshot 1.jpg",
+                "Source/GeometryNodes/Forest scatter/Screenshot 2.jpg",
+                "Source/GeometryNodes/Forest scatter/Screenshot 3.jpg",
+                "Source/GeometryNodes/Forest scatter/Screenshot 4.jpg"
             ]
         }
     ]
