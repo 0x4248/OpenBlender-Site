@@ -602,6 +602,30 @@
                 "Source/GeometryNodes/Forest scatter/Screenshot 3.jpg",
                 "Source/GeometryNodes/Forest scatter/Screenshot 4.jpg"
             ]
+        },
+        {
+            "Name": "Array scatter",
+            "Category": "GeometryNodes",
+            "Blender_File": "Source/GeometryNodes/Array scatter/Array scatter.blend",
+            "Notes": "Source/GeometryNodes/Array scatter/notes.txt",
+            "Thumbnail": "Source/GeometryNodes/Array scatter/thumbnail.jpg",
+            "Description": "This is a geometry node array modifier that has many features and is not heavy on memory.",
+            "Engine": "EEVEE",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "True",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "True"
+            },
+            "Screenshots": [
+                "Source/GeometryNodes/Array scatter/Screenshot 1.jpg",
+                "Source/GeometryNodes/Array scatter/Screenshot 2.jpg"
+            ]
         }
     ]
 }
