@@ -626,6 +626,34 @@
                 "Source/GeometryNodes/Array scatter/Screenshot 1.jpg",
                 "Source/GeometryNodes/Array scatter/Screenshot 2.jpg"
             ]
+        },
+        {
+            "Name": "Wireframe plus",
+            "Category": "GeometryNodes",
+            "Blender_File": "Source/GeometryNodes/Wireframe/wireframe.blend",
+            "Notes": "Source/GeometryNodes/Wireframe/notes.txt",
+            "Thumbnail": "Source/GeometryNodes/Wireframe/thumbnail.jpg",
+            "Description": "A geometry node setup that creates a wireframe effect on a mesh.",
+            "Engine": "EEVEE",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "True",
+                "IsAssets": "False",
+                "RequiresFastComputer": "False",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "True"
+            },
+            "Screenshots": [
+                "Source/GeometryNodes/Wireframe/Screenshot 1.jpg",
+                "Source/GeometryNodes/Wireframe/Screenshot 2.jpg",
+                "Source/GeometryNodes/Wireframe/Screenshot 3.jpg",
+                "Source/GeometryNodes/Wireframe/Screenshot 4.jpg",
+                "Source/GeometryNodes/Wireframe/Screenshot 5.jpg",
+                "Source/GeometryNodes/Wireframe/Screenshot 6.jpg"
+            ]
         }
     ]
 }
