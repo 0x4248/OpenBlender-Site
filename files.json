@@ -654,6 +654,32 @@
                 "Source/GeometryNodes/Wireframe/Screenshot 5.jpg",
                 "Source/GeometryNodes/Wireframe/Screenshot 6.jpg"
             ]
+        },
+        {
+            "Name": "Volume tools",
+            "Category": "GeometryNodes",
+            "Blender_File": "Source/GeometryNodes/Volume tools/volume tools.blend",
+            "Notes": "Source/GeometryNodes/Volume tools/notes.txt",
+            "Thumbnail": "Source/GeometryNodes/Volume tools/thumbnail.jpg",
+            "Description": "A set of geometry node volume tools for quick effects using the volume nodes in blender.",
+            "Engine": "EEVEE",
+            "Icons": {
+                "Is3D": "True",
+                "IsAsset": "False",
+                "IsAssets": "True",
+                "RequiresFastComputer": "True",
+                "IsAnimated": "False",
+                "IsRigged": "False",
+                "IsCurves": "False",
+                "IsTopPick": "True",
+                "IsGeoNodes": "True"
+            },
+            "Screenshots": [
+                "Source/GeometryNodes/Volume tools/Screenshot 1.jpg",
+                "Source/GeometryNodes/Volume tools/Screenshot 2.jpg",
+                "Source/GeometryNodes/Volume tools/Screenshot 3.jpg",
+                "Source/GeometryNodes/Volume tools/Screenshot 4.jpg"
+            ]
         }
     ]
 }
