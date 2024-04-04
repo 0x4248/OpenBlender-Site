@@ -6,4 +6,4 @@ You can find the website at [lewisevans2007.github.io/OpenBlender-Site](https://
 
 ## Licence
 
-This project is licenced under the public domain. You can use it for any purpose without any restrictions.
+This project is licenced under the public domain (CC-0). You can use it for any purpose without any restrictions.
