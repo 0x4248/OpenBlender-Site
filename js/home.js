@@ -1,6 +1,6 @@
 if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
     var root = '/';
-    document.getElementById('title').innerHTML = 'OpenBlender - Locally hosted';
+    document.getElementById('title').innerHTML = 'OpenBlender (Archived version) - Locally hosted';
 } else {
     var root = '/OpenBlender-Site/';
 }

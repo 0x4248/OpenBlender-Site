@@ -5,6 +5,6 @@ This set of colour bars allows you to colour correct and focus cameras and video
 Changelog:
     Version 1: Made objects asset
 
+Author: 0x4248
 Render Engine: EEVEE
-Author: Lewis Evans
 Licence: CC-0 (Public Domain)

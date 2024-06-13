@@ -2,6 +2,6 @@ FX Spark
 
 This is a simple spark animation made using curve paths.
 
-Render engine: EEVEE
-Author: Lewis Evans
+Author: 0x4248
+Render Engine: EEVEE
 Licence: CC-O (Public Domain)

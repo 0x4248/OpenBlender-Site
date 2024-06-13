@@ -2,6 +2,6 @@ Cube Playground
 
 A testing playground for physics and other simulations.
 
-Author: Lewis Evans
+Author: 0x4248
 Rendering Engine: Cycles
 Licence: CC-0 (Public domain)

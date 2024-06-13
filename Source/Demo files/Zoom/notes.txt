@@ -2,6 +2,6 @@ Zoom
 
 A animated demo of how zoom affects perspective
 
-Render engine: Cycles
-Author: Lewis Evans
+Author: 0x4248
+Render Engine: Cycles
 Licence: CC=0 (Public Domain)

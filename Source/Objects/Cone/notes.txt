@@ -4,6 +4,6 @@ A low poly cone that is UV wrapped to a image of a cone and has basic textures o
 
 Image is from OpenImages.
 
+Author: 0x4248
 Render Engine: Cycles
-Author: Lewis Evans
 Licence: CC-0 (Public Domain)

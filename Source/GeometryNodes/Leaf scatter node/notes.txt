@@ -4,6 +4,6 @@ Scattering leaves across a curve using geometry nodes.
 
 Image used is part of OpenImages asset library.
 
-Rendering engine: Cycles
-Author: Lewis Evans
+Author: 0x4248
+Rendering Engine: Cycles
 Licence: CC-0 (Public Domain)

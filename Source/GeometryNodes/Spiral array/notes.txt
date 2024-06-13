@@ -2,6 +2,6 @@ Spiral array
 
 A geometry nodes modifier to scatter an object across an array
 
-Render engine: None
-Author: Lewis Evans
+Author: 0x4248
+Render Engine: None
 Licence: Public Domain (CC-0)

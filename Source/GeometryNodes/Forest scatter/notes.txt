@@ -2,6 +2,6 @@ Forest scattering
 
 A geometry node setup to scatter 3 objects onto a plane and to displace the plane. The plane also has a seamless/tileless texture.
 
+Author: 0x4248
 Render Engine: None
-Author: Lewis Evans
 Licence: CC-0 (Public Domain)

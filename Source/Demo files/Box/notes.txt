@@ -2,6 +2,6 @@ Box test render
 
 A benchmark file that has simple shaders and objects.
 
+Author: 0x4248
 Render Engine: Cycles
-Author: Lewis Evans
 Licence: CC-0 (Public Domain)

@@ -2,6 +2,6 @@ Blank playground
 
 A basic and blank playground for simulations and more.
 
+Author: 0x4248
 Render Engine: Cycles
-Author: Lewis Evans
 Licence: CC-0

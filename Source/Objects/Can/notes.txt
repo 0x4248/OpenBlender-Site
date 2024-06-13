@@ -11,6 +11,6 @@ Note:
 Change log:
     Added render scene for thumbnail
 
+Author: 0x4248
 Rendering Engine: None
-Author: Lewis Evans
 Licence CC-0 (Public Domain)

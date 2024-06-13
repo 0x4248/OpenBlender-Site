@@ -2,6 +2,6 @@ Ball masking
 
 A composite mask to turn a tennis ball from green to purple using the compositor, keying and masking.
 
+Author: 0x4248
 Render Engine: None
-Author: Lewis Evans
 Licence: CC-0
